@@ -1,0 +1,39 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: rgb(227, 238, 192);
+    
+}
+
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+a{
+    color: rgb(50, 49, 49)
+}
+
+.intro{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.currentPageName{ 
+    font-weight: 600; /* Bolds title of the page on nav bar*/
+}
+
+form{
+    display: block;
+}
+
+
+.introPic{
+    height: 500px;
+    width: 500px;
+}
+
