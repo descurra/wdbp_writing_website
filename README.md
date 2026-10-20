@@ -11,3 +11,9 @@ Business Rules:
     A post can have have up to 50 comments, but each comment must be connected to one post
      Each post can have up to 20 edits, each edit must be linked to one post
     User can add up to 10 edit to a post, each edit is made by one user
+
+ERD:
+![ERD](images/writing_website_erd.png)
+
+Relations
+![Relations](images/writing_website_relations.png)
