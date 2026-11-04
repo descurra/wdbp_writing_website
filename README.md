@@ -20,16 +20,21 @@ Relations
 
 
 Database Implementation:
-    Used MySQL
-    Added "users" and "comments" tables
-    Comments are made by one user each and contains a user foreign key, users can create comments on any post
-    schema.sql file
-    ![schema.sql_file](schema.sql)
-    Users Table Creation:
-    ![users_table_create](database/assignment5_users_table_create.png)
-    Comments Table Creation:
-    ![comments_table_create](database/assignment5_comments_table_create.png)
-    Resulting Tables:
-    ![show_tables](database/assignment5_show_tables.png)
+
+Used MySQL
+Added "users" and "comments" tables
+Comments are made by one user each and contains a user foreign key, users can create comments on any post
+
+schema.sql file
+![schema.sql_file](schema.sql)
+
+Users Table Creation:
+![users_table_create](database/assignment5_users_table_create.png)
+
+Comments Table Creation:
+![comments_table_create](database/assignment5_comments_table_create.png)
+
+Resulting Tables:
+![show_tables](database/assignment5_show_tables.png)
 
 
