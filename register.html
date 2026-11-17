@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -23,7 +24,7 @@
         <h1 class="intro">Welcome!</h1>
         <h2 class="intro">Register</h2>
 
-        <form>
+        <form id="registerForm">
             <!--First Name-->
             <label for="firstname">First Name: </label>
             <input type="text" id="firstname">
@@ -43,12 +44,19 @@
             <label for="username">Password: </label>
             <input type="text" id="password">
             <br>
+
+            <!--Bio-->
+            <label for="bio">Bio: </label>
+            <input type="text" id="bio">
+            <br>
     
             <input type="submit" value="register">
     
         </form>
+        
     </main>
     
-    
+    <script src="user.js"></script>
+
 </body>
 </html>
