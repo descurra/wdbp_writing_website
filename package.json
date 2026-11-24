@@ -1,0 +1,33 @@
+{
+  "name": "wdbp_writing_website",
+  "version": "1.0.0",
+  "description": "Writing website for wdp",
+  "keywords": [
+    "writing",
+    "creative"
+  ],
+  "homepage": "https://github.com/descurra/wdbp_writing_website#readme",
+  "bugs": {
+    "url": "https://github.com/descurra/wdbp_writing_website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descurra/wdbp_writing_website.git"
+  },
+  "license": "ISC",
+  "author": "Dakota Escurra",
+  "type": "commonjs",
+  "main": "post.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
